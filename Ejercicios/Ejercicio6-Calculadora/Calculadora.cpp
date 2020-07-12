@@ -9,32 +9,24 @@ int main(int argc, char** argv) {
 	// Datos de Entrada
 	int a = 0;
 	int b = 0;
-	int resultado = 0;
+	int suma = 0, resta = 0, multiplicacion = 0, division = 0; 
 	
-	cout << "Ingrese el valor de a: ";
-	cin >> a;
+	cout <<"Ingrese el valor de a: "; cin>> a;
 	
-	cout << endl;
-	
-	cout << "Ingrese el valor de b: ";
-	cin >> b;
+	cout <<"Ingrese el valor de b: "; cin>> b;
 	
 		// Proceso
-	resultado = a + b;
-	cout << endl;
-    resultado = a - b;
-    cout << endl;
-    resultado = a * b;
-	cout << endl;
-    resultado = a / b;
+	suma = a + b;
+	resta = a - b;
+    multiplicacion = a * b;
+	division = a / b;
 
     // Salida
 	
-	cout << endl;
-	cout << " La suma de a + b es: " << resultado;
-	cout << " La resta de a - b es:" << resultado;
-    cout << " La multiplicacion de a * b es:" << resultado;
-    cout << " la division de a / b es;" << resultado;
+	cout <<"La suma es: "<<suma<<endl;
+	cout <<"La resta es:" <<resta<<endl;
+    cout <<"La multiplicacion es:"<<multiplicacion<<endl;
+    cout <<"La division es;"<<division<<endl;
 
 
 	return 0;
