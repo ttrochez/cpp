@@ -27,7 +27,8 @@ int main(int argc, char** argv)
 
     //Proceso
     calculoDescuento = (subtotal * descuento) / 100;
-     if(estaExenta == 's' || estaExenta == 'S')
+    
+    if(estaExenta == 's' || estaExenta == 'S')
      {
         calculoImpuesto = 0;
 
