@@ -5,7 +5,7 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     int a = 10;
-    int b = 35;
+    int b = 8;
 
     while(a > b){
         cout <<"(while) a > b" <<endl;
