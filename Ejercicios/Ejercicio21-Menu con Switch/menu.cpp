@@ -26,7 +26,7 @@ int main(int argc, char** argv) {
 		if(opcion == 0){
 			break;
 		}
-
+		
 		switch (opcion)
 		{
 			case 1:
@@ -54,9 +54,9 @@ int main(int argc, char** argv) {
 			}			
 		}
 			
-			
 		cout <<endl;
-		cout <<"Saliste del sistema";
+		cout <<"Saliste del sistema";	
+		
 
 
 
