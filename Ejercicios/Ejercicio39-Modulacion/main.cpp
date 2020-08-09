@@ -9,7 +9,7 @@ int main(int argc, char** argv) {
 	
 	system("cls");
 	
-	cout << sumar(5, 7);
+	cout << sumar(15, 7);
 	cout <<endl;
 		
 	return 0;
