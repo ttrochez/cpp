@@ -9,15 +9,16 @@ void imprimirCaracteres(char caracter, int ciclos)
         cout << caracter;
     }
 
+    cout <<endl;
+
 }
 
 int main(int argc, char const *argv[])
 {
     imprimirCaracteres('@', 10);
     imprimirCaracteres('$', 25);
-    cout <<"Hola Mundo";
+    cout <<"Hola Mundo" <<endl;
     imprimirCaracteres('*', 100);
-   
    
     return 0;
 }
