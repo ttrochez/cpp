@@ -36,7 +36,7 @@ void productos(int opcion)
                 agregarProducto("2 Expresso Lps. 45.00", 1, 45);
                 break;
             case 3:
-                agregarProducto("3 Chailatte Lps. 55.00", 1, 45);
+                agregarProducto("3 Chailatte Lps. 45.00", 1, 45);
                 break;
             default:
                 {   
@@ -51,9 +51,7 @@ void productos(int opcion)
             system("pause");
 
             break;
-        
         }
-        
         case 2:
         {
             cout << "*************" <<endl;
@@ -70,13 +68,13 @@ void productos(int opcion)
             switch (opcionProducto)
             {
             case 1:
-                agregarProducto("1 Mochaccino Lps. 43.00", 1, 40);
+                agregarProducto("1 Mochaccino Lps. 43.00", 1, 43);
                 break;
             case 2:
                 agregarProducto("2 Frapuchata Lps. 45.00", 1, 45);
                 break;
             case 3:
-                agregarProducto("3 Granita de cafe Lps. 40.00", 1, 45);
+                agregarProducto("3 Granita de cafe Lps. 40.00", 1, 40);
                 break;
             default:
                 {   
@@ -111,13 +109,13 @@ void productos(int opcion)
             switch (opcionProducto)
             {
             case 1:
-                agregarProducto("1 Tarta de cafe Lps. 65.00", 1, 40);
+                agregarProducto("1 Tarta de cafe Lps. 65.00", 1, 65);
                 break;
             case 2:
-                agregarProducto("2 Pan con queso y frijoles Lps. 40.00", 1, 45);
+                agregarProducto("2 Pan con queso y frijoles Lps. 40.00", 1, 40);
                 break;
             case 3:
-                agregarProducto("3 Tiramisu Lps. 60.00", 1, 45);
+                agregarProducto("3 Tiramisu Lps. 60.00", 1, 60);
                 break;
             default:
                 {   

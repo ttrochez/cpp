@@ -32,7 +32,7 @@ int main(int argc, char** argv)
         calculoImpuesto = 0;
 
      } else{
-         calculoImpuesto = (subtotal - calculoDescuento) * 0.15;/* code */
+         calculoImpuesto = (subtotal - calculoDescuento) * 0.15;
      }
         
     total = subtotal - calculoDescuento + calculoImpuesto;
