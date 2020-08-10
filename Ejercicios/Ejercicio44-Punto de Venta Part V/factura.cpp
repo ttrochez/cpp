@@ -2,13 +2,18 @@
 
 using namespace std;
 
+double impuesto;
 double subtotal;
+double total;
 string listaProductos = "";
 
 void agregarProducto(string descripcion, int cantidad, double precio)
 {
     listaProductos = listaProductos + descripcion + '\n';
     subtotal = subtotal + (cantidad * precio);
+    impuesto = subtotal * 0.15;
+    total = subtotal + impuesto;
+
 }
 
 void imprimirFactura()
