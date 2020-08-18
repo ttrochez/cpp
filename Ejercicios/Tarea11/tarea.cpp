@@ -10,13 +10,13 @@ int main(int argc, char const *argv[])
     int random = 0;
     int totalSuma = 0;
 
-    srand(time(NUL));
+    srand(time(NULL));
 
     for (int i = 0; i < 5; i++)
     {
         for(int j = 0; j < 5; j++)
         {
-            random  = rand() % 100 + 1;
+            random  = rand() % 1000 + 1;
             arreglo[i][j] = random;
             cout << " [ " << arreglo[i][j] << " ] ";
         }
